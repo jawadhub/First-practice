@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h3{
+  font-size: 45px;
+}
+
+section {
+  padding-bottom: 500px;
+}
+
+p{
+  color: dimgray;
+}
+
+.one{
+  padding-top: 50px;
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.two{
+  padding-top: 50px;
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.color-name{
+  color: coral;
+}
+
+.half-side{
+  width: 40%;
+  margin-left: 5%;
+  float: left;
+}
+
+.one-profile-img{
+  width: 100%;
+}
+
+.one-button{
+  text-decoration: none;
+  background: coral;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* section ---------------------- three */
+.three{
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+h4 {
+  color: orangered;
+}
+
+.three-head{
+  text-align: center;
+  color: brown;
+}
+
+.three-box{
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 5px;
+  height: 400px;
+  padding: 15px;
+  
+}
+
+#full-stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, tomato, yellow);
+  border-image-slice: 1;
+}
+
+#baby-web{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(52, 51, 54), rgb(226, 8, 91));
+  border-image-slice: 1;
+}
+
+.three .class-e{
+  color:#22C5DE;
+  font-weight: 800;
+  font-size: 80px;
+}
+
+/* section----------------------- three */
+
+footer{
+  text-align: center;
+  font-size: 10px;
+}
